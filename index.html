@@ -24,7 +24,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -40,8 +40,7 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Moin!<br>I'am <span class="home__title-color">Alireza</span><br> Software developer</h1>
-
-                    <a href="#" class="button">Contact</a>
+                    <a href="mailto:alireza.kargar@gmx.de"class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -71,7 +70,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/about.png" alt="">
                     </div>
 
                     <div>
@@ -146,30 +145,43 @@
             </section>
 
             <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+<section class="work section" id="Projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="work__container bd-grid">
 
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
+        <div class="work__item">
+            <img src="assets/img/quickjobalert.png" alt="Project 1" class="pro">
+            <div class="work__info">
+                <h3 class="work__title">QuickJobAlerts</h3>
+                <p class="work__description">QuickJob Alert was the winning project of a 3-day Hackathon at Master School in May 2024. It helps users stay informed about job opportunities matching their preferences. Features include job alert notifications via SMS, user profile management, and 24-hour job checks. Technologies used: Python, APIs, HTML, and CSS.</p>
+                <a href="https://github.com/Alirezakargar27/QuickJobAlert-Hackathon-winner-project" class="button work__button">View Details</a>
+            </div>
+        </div>
+
+                <div class="work__item">
+            <img src="assets/img/bestbuy.app.png" alt="Project 2" class="work__img">
+            <div class="work__info">
+                <h3 class="work__title">Best Buy App</h3>
+                <p class="work__description">This project aims to create an engine for a tech equipment store akin to "Best Buy". Users can efficiently list products and make orders, improving the shopping experience. Technologies used: Python, Git/GitHub, PyCharm (IDE), Unit Testing Framework (pytest), Object-Oriented Programming (OOP) concepts.</p>
+                <a href="https://github.com/Alirezakargar27/bestbuy" class="button work__button">View Details</a>
+            </div>
+        </div>
+
+        <div class="work__item">
+            <img src="assets/img/movie.png" alt="Project 2" class="work__img">
+            <div class="work__info">
+                <h3 class="work__title">Movie App</h3>
+                <p class="work__description"> Movie app is a database that allows users to manage and interact with a collection of movies. It offers various operations like listing, adding, deleting, and updating ratings, alongside features such as viewing statistics and getting random suggestions. Utilizing Python, JSON, persistent storage, API integration, Git, and GitHub.</p>
+                <a href="https://github.com/Alirezakargar27/Movie-App" class="button work__button">View Details</a>
+            </div>
+
+
+
+        <!-- Add more work__item divs for additional projects -->
+
+    </div>
+</section>
+
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -188,11 +200,8 @@
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__title">Marlon</p>
+            <p class="footer__title">Alireza</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
             <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
         </footer>
